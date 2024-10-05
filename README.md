@@ -1,7 +1,7 @@
 # NTI
 project:
 
-Key functionalities of the code:**
+Key functionalities of the code:
 
 * File Download: Downloads a specified file to a designated directory.
 * File Backup: Backs up files from a source directory to a destination directory.
