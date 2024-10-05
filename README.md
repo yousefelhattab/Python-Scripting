@@ -3,12 +3,12 @@ project:
 
 Key functionalities of the code:**
 
-* File Download:** Downloads a specified file to a designated directory.
-* File Backup:** Backs up files from a source directory to a destination directory.
-* Email Notification:** Sends an email notification with a specified subject and body.
+* File Download: Downloads a specified file to a designated directory.
+* File Backup: Backs up files from a source directory to a destination directory.
+* Email Notification: Sends an email notification with a specified subject and body.
 * Scheduling: Allows users to schedule the above tasks to run daily at a specific time.
 
-**Steps involved:**
+Steps involved:
 
 1. User Input: Users enter details like file URL, download directory, backup source/destination, email information, and schedule time.
 2. Scheduling: The entered information is used to create a scheduled job that will run daily at the specified time.
