@@ -19,11 +19,32 @@ The File Download and Backup Scheduler is a Python application designed to autom
 - **smtplib**: For sending email notifications.
 
 ### Installation
-To set up the project, you will need to install the required packages. You can do this by running:
-```bash
-pip install -r requirements.txt
-```
+To set up and run the project, follow these steps:
 
+## How to set up and run the project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yousefelhattab/Python-Scripting.git
+
+2. Navigate to the project directory:
+
+ bash
+
+    cd Python-Scripting
+
+3.Install the required dependencies:
+
+bash
+
+    pip install -r requirements.txt
+
+4.Run the desired script:
+
+bash
+
+    python script_name.py
+For additional details and specific instructions, refer to the repository's README file.
 ### Usage
 1. Launch the application.
 2. Enter the required details for file downloading, backup source, destination, email subject, and body.
