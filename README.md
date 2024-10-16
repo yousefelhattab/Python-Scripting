@@ -1,34 +1,34 @@
-# NTI
-project:
+Here's a suggested description for your project, incorporating the use of the `requirements.txt` file:
 
-Key functionalities of the code:
+---
 
-* File Download: Downloads a specified file to a designated directory.
-* File Backup: Backs up files from a source directory to a destination directory.
-* Email Notification: Sends an email notification with a specified subject and body.
-* Scheduling: Allows users to schedule the above tasks to run daily at a specific time.
+## NTI Project - File Download and Backup Scheduler
 
-Steps involved:
+### Overview
+The File Download and Backup Scheduler is a Python application designed to automate the process of downloading files, backing up important data, and sending email notifications. This project utilizes various Python libraries to provide a user-friendly interface for scheduling tasks.
 
-1. User Input: Users enter details like file URL, download directory, backup source/destination, email information, and schedule time.
-2. Scheduling: The entered information is used to create a scheduled job that will run daily at the specified time.
-3. Task Execution: When the scheduled time arrives, the job is executed:
-   - The file is downloaded.
-   - Files are backed up.
-   - An email notification is sent.
-4. Error Handling: The code includes error handling to catch and display any exceptions that may occur during the process.
+### Features
+- **File Downloading**: Users can specify a URL to download files automatically.
+- **Data Backup**: The application can back up specified directories to a designated location, creating zip archives for easy storage.
+- **Email Notifications**: Users can configure email notifications to receive updates upon successful completion of download and backup tasks.
+- **Task Scheduling**: Users can schedule these tasks to run daily at a specified time.
 
-GUI Interface:
+### Technologies Used
+- **Python**: The primary programming language used for developing the application.
+- **Tkinter**: For building the graphical user interface (GUI).
+- **Schedule**: To handle scheduling of tasks.
+- **Requests**: For downloading files from the web.
+- **Shutil**: For file operations, including creating zip archives.
+- **smtplib**: For sending email notifications.
 
-* A graphical user interface (GUI) is created using Tkinter.
-* The GUI allows users to enter the necessary information and schedule the tasks.
-* Buttons are provided for browsing directories and scheduling the job.
+### Installation
+To set up the project, you will need to install the required packages. You can do this by running:
+```bash
+pip install -r requirements.txt
+```
 
+### Usage
+1. Launch the application.
+2. Enter the required details for file downloading, backup source, destination, email subject, and body.
+3. Schedule the job to run at your desired time.
 
-
-# GUI Creation:
-Creates a main window with the title "File Download and Backup Scheduler".
-Uses various widgets (Label, Entry, Button, Text) to create an interface for user input and interaction.
-Connects buttons to their respective functions (browse_directory and schedule_job).
-Starts the main event loop (mainloop) to display the GUI and respond to user actions.
-Overall, this code provides a user-friendly interface for scheduling automated tasks involving file downloads, backups, and email notifications.
