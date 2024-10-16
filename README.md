@@ -1,8 +1,5 @@
-Here's a suggested description for your project, incorporating the use of the `requirements.txt` file:
 
----
-
-## NTI Project - File Download and Backup Scheduler
+## File Download and Backup Scheduler
 
 ### Overview
 The File Download and Backup Scheduler is a Python application designed to automate the process of downloading files, backing up important data, and sending email notifications. This project utilizes various Python libraries to provide a user-friendly interface for scheduling tasks.
