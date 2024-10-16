@@ -43,8 +43,8 @@ bash
 
 bash
 
-    python script_name.py
-For additional details and specific instructions, refer to the repository's README file.
+    python main.py
+
 ### Usage
 1. Launch the application.
 2. Enter the required details for file downloading, backup source, destination, email subject, and body.
